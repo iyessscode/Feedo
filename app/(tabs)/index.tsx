@@ -1,7 +1,3 @@
-import { CartButton } from "@/components/cart-button";
-import { icons } from "@/constants/icons";
-import { offers } from "@/lib/data";
-import { cn } from "@/lib/utils";
 import * as React from "react";
 import {
   FlatList,
@@ -12,6 +8,13 @@ import {
   View,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
+
+import { icons } from "@/constants/icons";
+
+import { offers } from "@/lib/data";
+import { cn } from "@/lib/utils";
+
+import { CartButton } from "@/components/cart-button";
 
 export default function HomeScreen() {
   return (

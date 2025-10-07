@@ -35,9 +35,9 @@ module.exports = {
       fontFamily: {
         quicksand: ["QuicksandRegular", "sans-serif"],
         "quicksand-bold": ["QuicksandBold", "sans-serif"],
-        "quicksand-semibold": ["QuicksandSemiBold", "sans-serif"],
-        "quicksand-light": ["QuicksandLight", "sans-serif"],
+        "quicksand-semibold": ["QuicksandSemibold", "sans-serif"],
         "quicksand-medium": ["QuicksandMedium", "sans-serif"],
+        "quicksand-light": ["QuicksandLight", "sans-serif"],
       },
     },
   },

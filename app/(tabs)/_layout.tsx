@@ -1,10 +1,17 @@
-import { icons } from "@/constants/icons";
-import { cn } from "@/lib/utils";
 import { Redirect, Tabs } from "expo-router";
 import { Image, Text, View } from "react-native";
+
+import { icons } from "@/constants/icons";
+
+import { cn } from "@/lib/utils";
+
+import useAuthStore from "@/store/auth.store";
+
 export default function TabsLayout() {
-  const isAuthenticated = false;
-  if (!isAuthenticated) return <Redirect href="/(auth)/sign-in" />;
+  const { isAuthenticated } = useAuthStore();
+
+  if (!isAuthenticated) return <Redirect href="/sign-in" />;
+
   return (
     <Tabs
       screenOptions={{

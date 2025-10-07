@@ -49,6 +49,14 @@
             "./assets/fonts/Quicksand-Light.ttf"
           ]
         }
+      ],
+      [
+        "@sentry/react-native/expo",
+        {
+          "url": "https://sentry.io/",
+          "project": "feedo",
+          "organization": "iyessscode"
+        }
       ]
     ],
     "experiments": {
